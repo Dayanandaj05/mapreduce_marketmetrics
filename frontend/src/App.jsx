@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Lock, FileText, Download, Play, RefreshCw, BarChart2, TrendingUp } from 'lucide-react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, LineChart, Line } from 'recharts';
 
-const API_BASE = 'http://localhost:3001/api';
+const API_BASE = 'http://16.4.52.74:3001/api';
 const API_KEY = 'secret-demo-key';
 const fetchOpts = { headers: { 'x-api-key': API_KEY } };
 
